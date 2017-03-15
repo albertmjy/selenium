@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [MySuite]">
+  <listeners>
+    <listener class-name="listener.testng.MyListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="dependencyTest(failed)">
+    <classes>
+      <class name="com.example.DependencyTest">
+        <methods>
+          <include name="configTest"/>
+          <include name="teatdown"/>
+          <include name="connectionTest"/>
+        </methods>
+      </class> <!-- com.example.DependencyTest -->
+    </classes>
+  </test> <!-- dependencyTest(failed) -->
+</suite> <!-- Failed suite [MySuite] -->

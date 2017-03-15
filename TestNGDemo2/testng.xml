@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<suite name="testproj" parallel="false">-->
+    <!--<test name="testDemo1">-->
+        <!--&lt;!&ndash;<packages>&ndash;&gt;-->
+        <!--&lt;!&ndash;<package name="com.testproj.Demo"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</packages>&ndash;&gt;-->
+        <!--<classes>-->
+            <!--&lt;!&ndash;<class name="com.example.AppTest2"></class>&ndash;&gt;-->
+            <!--<class name="com.example.ClassATest"></class>-->
+        <!--</classes>-->
+    <!--</test>-->
+<!--</suite>-->
+
+<suite name="MySuite" verbose="1" >
+    <listeners>
+        <listener class-name="listener.testng.MyListener"/>
+        <listener class-name="listener.testng.TestListener"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <!--<test name="MyTest" >-->
+        <!--<classes>-->
+            <!--<class name="com.example.ClassATest" />-->
+            <!--<class name="com.example.ClassBTest" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MyPackageTest" >-->
+        <!--<packages>-->
+            <!--<package name="com.example" />-->
+        <!--</packages>-->
+    <!--</test>-->
+
+    <!--<test name="MyMethodTest">-->
+        <!--<classes>-->
+            <!--<class name="com.example.ClassATest">-->
+                <!--<methods>-->
+                    <!--&lt;!&ndash;<include name="testSayHi" />&ndash;&gt;-->
+                    <!--<exclude name="testSayHi" />-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="MyGroupsTest">-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--&lt;!&ndash;<exclude name="functest" />&ndash;&gt;-->
+                <!--<include name="unittest" />-->
+                <!--<include name="linux.*" />-->
+            <!--</run>-->
+        <!--</groups>-->
+        <!--<classes>-->
+            <!--<class name="com.example.GroupsTest" />-->
+            <!--<class name="com.example.GroupTest2">-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <parameter name="first-name"  value="..."/>
+    <!--<test name="ParameterTest">-->
+
+        <!--<classes>-->
+            <!--<class name="com.example.ParametersTest" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="dependencyTest">-->
+        <!--<classes>-->
+            <!--<class name="com.example.DependencyTest" />-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="My suite">-->
+        <!--<groups>-->
+            <!--<dependencies>-->
+                <!--<group name="c" depends-on="a  b" />-->
+                <!--<group name="z" depends-on="c" />-->
+            <!--</dependencies>-->
+        <!--</groups>-->
+    <!--</test>-->
+
+    <test name="Log4j">
+        <classes>
+            <class name="com.example.TestLog4j" />
+        </classes>
+    </test>
+
+</suite>

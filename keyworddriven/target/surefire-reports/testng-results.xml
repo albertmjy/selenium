@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Act: Open_Browser,  , , https://www.qunar.com/]]>
+    </line>
+    <line>
+      <![CDATA[Act: Select_FlightTicketTab,  css, #js_nva_cgy>li.first, ]]>
+    </line>
+    <line>
+      <![CDATA[Act: Select_DomesticFlightTab,  css, #js_domestic_tab, ]]>
+    </line>
+    <line>
+      <![CDATA[Act: Select_RoundTripRadioButton,  css, #js_flight_domestic_searchbox > div.crl_group:first-of-type .lal_rdo:last-of-type, ]]>
+    </line>
+    <line>
+      <![CDATA[Act: Edit_TravelFromText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_1>.controls:first-of-type input, shanghai]]>
+    </line>
+    <line>
+      <![CDATA[Act: Edit_TravelToText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_1>.controls:last-of-type input, chengdu]]>
+    </line>
+    <line>
+      <![CDATA[Act: Edit_DateFromText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_2>.controls:first-of-type input, 05-Apr-2017]]>
+    </line>
+    <line>
+      <![CDATA[Act: Edit_DateToText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_2>.controls.js_arrivalDateDiv input, 01-May-2017]]>
+    </line>
+    <line>
+      <![CDATA[Act: Click_SearchButton,  css, #js_flight_domestic_searchbox .button-search, ]]>
+    </line>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="1535" started-at="2017-03-11T13:41:14Z" finished-at="2017-03-11T13:41:16Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="1535" started-at="2017-03-11T13:41:14Z" finished-at="2017-03-11T13:41:16Z">
+      <class name="com.example.TestScript">
+        <test-method status="PASS" signature="config()[pri:0, instance:com.example.TestScript@482f8f11]" name="config" is-config="true" duration-ms="12" started-at="2017-03-11T21:41:14Z" finished-at="2017-03-11T21:41:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="runTestCase(java.lang.String)[pri:0, instance:com.example.TestScript@482f8f11]" name="runTestCase" duration-ms="1498" started-at="2017-03-11T21:41:14Z" finished-at="2017-03-11T21:41:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[keywords.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Act: Open_Browser,  , , https://www.qunar.com/]]>
+            </line>
+            <line>
+              <![CDATA[Act: Select_FlightTicketTab,  css, #js_nva_cgy>li.first, ]]>
+            </line>
+            <line>
+              <![CDATA[Act: Select_DomesticFlightTab,  css, #js_domestic_tab, ]]>
+            </line>
+            <line>
+              <![CDATA[Act: Select_RoundTripRadioButton,  css, #js_flight_domestic_searchbox > div.crl_group:first-of-type .lal_rdo:last-of-type, ]]>
+            </line>
+            <line>
+              <![CDATA[Act: Edit_TravelFromText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_1>.controls:first-of-type input, shanghai]]>
+            </line>
+            <line>
+              <![CDATA[Act: Edit_TravelToText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_1>.controls:last-of-type input, chengdu]]>
+            </line>
+            <line>
+              <![CDATA[Act: Edit_DateFromText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_2>.controls:first-of-type input, 05-Apr-2017]]>
+            </line>
+            <line>
+              <![CDATA[Act: Edit_DateToText,  css, form#js_flight_domestic_searchbox div.iwrap .crl_sp2_2>.controls.js_arrivalDateDiv input, 01-May-2017]]>
+            </line>
+            <line>
+              <![CDATA[Act: Click_SearchButton,  css, #js_flight_domestic_searchbox .button-search, ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runTestCase -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.example.TestScript@482f8f11]" name="teardown" is-config="true" duration-ms="0" started-at="2017-03-11T21:41:16Z" finished-at="2017-03-11T21:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.example.TestScript -->
+    </test> <!-- Test1 -->
+  </suite> <!-- MySuite -->
+</testng-results>

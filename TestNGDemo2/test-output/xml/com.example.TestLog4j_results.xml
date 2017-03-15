@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Log4j"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.089">
+  <properties />
+  
+            <testcase name="run" time="0.0" classname="com.example.TestLog4j">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

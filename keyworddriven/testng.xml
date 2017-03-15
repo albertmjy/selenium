@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="MySuite" verbose="1" >
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="Test1">
+        <parameter name="keyword-file" value="keywords.xlsx" />
+
+        <classes>
+            <class name="com.example.TestScript" />
+        </classes>
+    </test>
+
+</suite>
