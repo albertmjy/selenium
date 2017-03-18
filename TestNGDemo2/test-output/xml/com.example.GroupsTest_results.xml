@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyGroupsTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.014">
+  <properties />
+  
+  
+            <testcase name="testA" time="0.013" classname="com.example.GroupsTest" />
+                <testcase name="testC" time="0.001" classname="com.example.GroupsTest" />
+      
+</testsuite>

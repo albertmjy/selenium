@@ -50,6 +50,8 @@ public class FirstWebDriver {
 
         // date to
         WebElement textDateTo = driver.findElement(By.cssSelector("form#js_flight_domestic_searchbox div.iwrap .crl_sp2_2>.controls.js_arrivalDateDiv input"));
+
+
         textDateTo.clear();
         textDateTo.sendKeys("2017-05-01");
         Thread.sleep(2000);
@@ -138,6 +140,9 @@ public class FirstWebDriver {
         // radio button
         WebElement radioRoundTrip = driver.findElement(By.cssSelector("#js_flight_domestic_searchbox > div.crl_group:first-of-type .lal_rdo:last-of-type"));
         radioRoundTrip.click();
+
+        WebElement textFrom = driver.findElement(By.cssSelector("form#js_flight_domestic_searchbox div.iwrap .crl_sp2_1>.controls:first-of-type input"));
+        textFrom.click();
 
         // float pane
         WebElement ABCDE = driver.findElement(By.cssSelector("span[data-key='ABCDE']"));

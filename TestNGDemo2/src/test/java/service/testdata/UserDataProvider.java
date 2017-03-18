@@ -15,6 +15,10 @@ public class UserDataProvider {
 
         return new Object[][]{
                 {"Java", new Integer(13)},
+                {"Selenium", new Integer(15)},
+                {"Selenium", new Integer(15)},
+                {"Selenium", new Integer(15)},
+                {"Selenium", new Integer(15)},
                 {"Selenium", new Integer(15)}
         };
     }

@@ -20,6 +20,9 @@ public class PageObjectDemo {
 
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
+
+
+
         GooglePage googlePage = PageFactory.initElements(driver, GooglePage.class);
 
         googlePage.searchGoogle("life is not easy");
@@ -44,7 +47,6 @@ public class PageObjectDemo {
         GooglePage googlePage = PageFactory.initElements(driver, GooglePage.class);
 
         googlePage.searchGoogle2("Ha li Lu Ya");
-
     }
 
     public  void googleSearchWithShort(){

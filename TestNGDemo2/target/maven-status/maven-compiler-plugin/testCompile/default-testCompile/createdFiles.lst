@@ -1,10 +1,13 @@
-com/example/GroupTest2.class
 com/example/DependencyTest.class
 com/example/AppTest.class
-com/example/AppTest2.class
 com/example/ParametersTest.class
-com/example/GroupsTest.class
-listener/testng/MyListener.class
+listener/testng/TestListener.class
 service/testdata/UserDataProvider.class
 com/example/ClassATest.class
 com/example/ClassBTest.class
+com/example/GroupTest2.class
+com/example/AppTest2.class
+com/example/GroupsTest.class
+listener/testng/MyListener.class
+com/example/TestLog4j.class
+listener/testng/ReportListener.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testproj" verbose="1">
+    <!--<listners>-->
+        <!--<listener class-name="org.uncommons.reportng.HTMLReporter"/>-->
+        <!--<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>-->
+    <!--</listners>-->
+
+<test name="testDemo1">
+
+<classes>
+    <class name="com.example.TestScript"></class>
+</classes>
+
+</test>
+
+</suite>

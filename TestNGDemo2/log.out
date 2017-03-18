@@ -1,2 +1,11 @@
 0    [main] INFO  com.example.TestLog4j  - hehehe
 0    [main] INFO  com.example.TestLog4j  - hehehe
+0    [main] INFO  com.example.TestLog4j  - hehehe
+0    [main] INFO  com.example.TestLog4j  - hehehe
+0    [main] INFO  com.example.TestLog4j  - hehehe
+1    [main] WARN  com.example.TestLog4j  - warning
+1    [main] FATAL com.example.TestLog4j  - fatal
+0    [main] INFO  com.example.TestLog4j  - hehehe
+3    [main] DEBUG com.example.TestLog4j  - debug
+3    [main] WARN  com.example.TestLog4j  - warning
+3    [main] FATAL com.example.TestLog4j  - fatal

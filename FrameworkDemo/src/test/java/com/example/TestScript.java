@@ -25,8 +25,6 @@ public class TestScript extends BaseScript{
         radio("#js_flight_domestic_searchbox > div.crl_group:first-of-type .lal_rdo:last-of-type").click();
 
         textbox("form#js_flight_domestic_searchbox div.iwrap .crl_sp2_1>.controls:first-of-type input").edit("shanghai");
-//                .visibilitySync(elementV2("travelFromSuggestBox"), 10)
-//                .sendTab();
 
 
         textboxV2("text.travelTo").edit("chengdu");

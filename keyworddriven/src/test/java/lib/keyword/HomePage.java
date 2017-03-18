@@ -13,8 +13,8 @@ public class HomePage implements HomePageInterface{
 
     public void Open_Browser(String locator, String path, String url) {
         log("Act: Open_Browser,  " + locator + ", " + path + ", " + url);
-//        WebDriver driver = new ChromeDriver();
-//        driver.get(url);
+        WebDriver driver = new ChromeDriver();
+        driver.get(url);
     }
 
     public void Select_FlightTicketTab(String locator, String path, String param) {

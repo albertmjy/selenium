@@ -22,7 +22,7 @@ public class DependencyTest {
         runner.setOutputDirectory("tstoutput");
     }
 
-    @Test(groups = "setup")
+    @Test(groups = "setup", alwaysRun = true)
     public void configTest() throws Exception {
         softAssert.fail("life is not easy");
         softAssert.assertTrue(false, "ooooooooooooooookoooo");
@@ -45,6 +45,7 @@ public class DependencyTest {
 
         try {
             Assert.assertTrue(false, "Missed!");
+
         } catch (Exception e) {
             e.printStackTrace();
         }

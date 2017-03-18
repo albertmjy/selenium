@@ -3,13 +3,11 @@
            tests="1"
            failures="0"
            errors="0"
-           skipped="1"
-           time="0.089">
+           skipped="0"
+           time="0.025">
   <properties />
   
-            <testcase name="run" time="0.0" classname="com.example.TestLog4j">
-          <skipped />
-    </testcase>
   
-  
+            <testcase name="run" time="0.025" classname="com.example.TestLog4j" />
+      
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="2" name="TestSuite" time="1.223" errors="0" skipped="0">
+<testsuite tests="3" failures="2" name="TestSuite" time="1.352" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
@@ -21,7 +21,7 @@
     <property name="basedir" value="/Users/albert/Workspace/selenium/TestNGDemo2"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefirebooter6440025682035349715.jar"/>
+    <property name="surefire.real.class.path" value="/var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefirebooter5696771780001883668.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -29,22 +29,22 @@
     <property name="os.name" value="Mac OS X"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/albert/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="surefire.test.class.path" value="/Users/albert/Workspace/selenium/TestNGDemo2/target/test-classes:/Users/albert/Workspace/selenium/TestNGDemo2/target/classes:/Users/albert/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/albert/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/albert/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/albert/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/albert/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/albert/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/albert/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/albert/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/albert/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/albert/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/albert/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/albert/Workspace/selenium/TestNGDemo2/target/test-classes:/Users/albert/Workspace/selenium/TestNGDemo2/target/classes:/Users/albert/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/albert/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/albert/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/albert/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/albert/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/albert/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/albert/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/albert/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/albert/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/albert/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/albert/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/albert/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.12.1"/>
+    <property name="os.version" value="10.12.3"/>
     <property name="user.home" value="/Users/albert"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="albert"/>
-    <property name="java.class.path" value="/Users/albert/Workspace/selenium/TestNGDemo2/target/test-classes:/Users/albert/Workspace/selenium/TestNGDemo2/target/classes:/Users/albert/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/albert/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/albert/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/albert/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/albert/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/albert/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/albert/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/albert/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/albert/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/albert/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/albert/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:"/>
+    <property name="java.class.path" value="/Users/albert/Workspace/selenium/TestNGDemo2/target/test-classes:/Users/albert/Workspace/selenium/TestNGDemo2/target/classes:/Users/albert/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/albert/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/albert/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/albert/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/albert/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/albert/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/albert/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/albert/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/albert/.m2/repository/com/google/inject/guice/3.0/guice-3.0.jar:/Users/albert/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/albert/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/albert/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="/var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefirebooter6440025682035349715.jar /var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefire3678409959248084486tmp /var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefire5926577420118674700tmp"/>
+    <property name="sun.java.command" value="/var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefirebooter5696771780001883668.jar /var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefire4871143587414055146tmp /var/folders/wf/fk0q9r296qncj9tp8fcvszrc0000gn/T/surefire78154461868672616tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -61,12 +61,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.example.DependencyTest" name="configTest" time="0.024">
+  <testcase classname="com.example.DependencyTest" name="configTest" time="0.018">
     <failure message="The following asserts failed:
 null, ooooooooooooooookoooo" type="java.lang.AssertionError">java.lang.AssertionError: The following asserts failed:
 null, ooooooooooooooookoooo
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:37)
-	at com.example.DependencyTest.configTest(DependencyTest.java:28)
+	at com.example.DependencyTest.configTest(DependencyTest.java:33)
 </failure>
   </testcase>
   <testcase classname="com.example.DependencyTest" name="connectionTest" time="0.001">
@@ -74,7 +74,7 @@ null, ooooooooooooooookoooo
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
-	at com.example.DependencyTest.connectionTest(DependencyTest.java:42)
+	at com.example.DependencyTest.connectionTest(DependencyTest.java:47)
 </failure>
   </testcase>
   <testcase classname="com.example.DependencyTest" name="query" time="0.001"/>

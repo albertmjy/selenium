@@ -12,6 +12,9 @@ public class TestLog4j {
     @Test
     public void run(){
         logger.info("hehehe");
+        logger.debug("debug");
+        logger.warn("warning");
+        logger.fatal("fatal");
 
     }
 }

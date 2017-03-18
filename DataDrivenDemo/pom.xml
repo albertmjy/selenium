@@ -20,6 +20,37 @@
         <directory>src/test/config</directory>
       </testResource>
     </testResources>
+
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+          <compilerArgs>
+            <arg>-Xlint:unchecked</arg>
+            <arg>-Xlint:deprecation </arg>
+            <!--<arg>endorseddirs=${endorsed.dir}</arg>-->
+          </compilerArgs>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.5</version>
+        <configuration>
+          <testFailureIgnore>true</testFailureIgnore>
+          <suiteXmlFiles>
+            <file>res/testNG.xml</file>
+          </suiteXmlFiles>
+          <!--<workingDirectory>target/</workingDirectory>-->
+        </configuration>
+      </plugin>
+    </plugins>
+
   </build>
   <dependencies>
     <dependency>
@@ -45,5 +76,27 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.8</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+    <dependency>
+      <groupId>org.uncommons</groupId>
+      <artifactId>reportng</artifactId>
+      <version>1.1.4</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+    <dependency>
+      <groupId>com.google.inject</groupId>
+      <artifactId>guice</artifactId>
+      <version>3.0</version>
+    </dependency>
+
   </dependencies>
 </project>

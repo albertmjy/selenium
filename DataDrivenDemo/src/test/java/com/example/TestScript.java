@@ -1,5 +1,6 @@
 package com.example;
 
+import datadriver.UserDataProvider;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeMethod;
@@ -16,16 +17,11 @@ public class TestScript {
         System.setProperty("webdriver.chrome.driver", "/Users/albert/Lib/chromedriver");
     }
 
-    @Test
-    public void run(){
-
-//        open("http://");
-//        textbox("gfdgdsf").edit("dsfdsf");
-//        selectbox("dfsdf").select("dfsdf");
-//        tab("fdfsdf").select("dfdfs");
-
-
+    @Test(dataProvider = "userdata", dataProviderClass = UserDataProvider.class)
+    public void run(String id, String name, String phone, String email, String comment){
+        System.out.println(id + ", " + name + ", " + phone + ", " + email + ", " + comment) ;
     }
+
 
     private void open(String url){
         driver = new ChromeDriver();

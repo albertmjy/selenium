@@ -14,15 +14,16 @@
 <suite name="MySuite" verbose="1" >
     <listeners>
         <listener class-name="listener.testng.MyListener"/>
-        <listener class-name="listener.testng.TestListener"/>
+        <!--<listener class-name="listener.testng.TestListener"/>-->
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     </listeners>
 
     <!--<test name="MyTest" >-->
         <!--<classes>-->
-            <!--<class name="com.example.ClassATest" />-->
-            <!--<class name="com.example.ClassBTest" />-->
+            <!--&lt;!&ndash;<class name="com.example.AppTest2" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.example.ClassATest" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<class name="com.example.ClassBTest" />&ndash;&gt;-->
         <!--</classes>-->
     <!--</test>-->
 
@@ -46,9 +47,10 @@
     <!--<test name="MyGroupsTest">-->
         <!--<groups>-->
             <!--<run>-->
-                <!--&lt;!&ndash;<exclude name="functest" />&ndash;&gt;-->
-                <!--<include name="unittest" />-->
-                <!--<include name="linux.*" />-->
+                <!--<exclude name="functest" />-->
+                <!---->
+                <!--&lt;!&ndash;<include name="unittest" />&ndash;&gt;-->
+                <!--&lt;!&ndash;<include name="linux.*" />&ndash;&gt;-->
             <!--</run>-->
         <!--</groups>-->
         <!--<classes>-->
@@ -58,7 +60,7 @@
         <!--</classes>-->
     <!--</test>-->
 
-    <parameter name="first-name"  value="..."/>
+    <!--<parameter name="username"  value="AAA"/>-->
     <!--<test name="ParameterTest">-->
 
         <!--<classes>-->
@@ -66,11 +68,11 @@
         <!--</classes>-->
     <!--</test>-->
 
-    <!--<test name="dependencyTest">-->
-        <!--<classes>-->
-            <!--<class name="com.example.DependencyTest" />-->
-        <!--</classes>-->
-    <!--</test>-->
+    <test name="dependencyTest">
+        <classes>
+            <class name="com.example.DependencyTest" />
+        </classes>
+    </test>
 
     <!--<test name="My suite">-->
         <!--<groups>-->
@@ -81,10 +83,10 @@
         <!--</groups>-->
     <!--</test>-->
 
-    <test name="Log4j">
-        <classes>
-            <class name="com.example.TestLog4j" />
-        </classes>
-    </test>
+    <!--<test name="Log4j">-->
+        <!--<classes>-->
+            <!--<class name="com.example.TestLog4j" />-->
+        <!--</classes>-->
+    <!--</test>-->
 
 </suite>

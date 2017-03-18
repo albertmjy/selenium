@@ -16,7 +16,12 @@ public class App
     {
 //        System.out.println(UIHomePage.radioRoundTrip);
 
+//        POIDemo poi = new POIDemo();
+////        poi.retriveAll();
+//        poi.readTestData(2, "Email");
+
 //        FirstWebDriver first = new FirstWebDriver();
+//        first.actionsDemo();
 //        first.basicDemo();
 
 //        PropertiesDemo propertiesDemo = new PropertiesDemo();
@@ -34,6 +39,13 @@ public class App
 //        db.preparedStmt();
 
 
+
+
+
+
+
+
+
         // todo: selenium server
         // todo: selenium grid
 
@@ -46,8 +58,8 @@ public class App
 //        first.withCookies();
 //        first.syncDemo();
 
-//        ScreenshotDemo screen = new ScreenshotDemo();
-//        screen.captureScreen();
+        ScreenshotDemo screen = new ScreenshotDemo();
+        screen.captureScreen();
 //        screen.captureElement();
 
 //        PageObjectDemo pageObjectDemo = new PageObjectDemo();
@@ -55,9 +67,9 @@ public class App
 //        pageObjectDemo.googlePageSearch();
 //        pageObjectDemo.googleSearchWithAnnotation();
 
-        RemoteDemo remoteDemo = new RemoteDemo();
-
-        remoteDemo.runRemote();
+//        RemoteDemo remoteDemo = new RemoteDemo();
+//
+//        remoteDemo.runRemote();
 
     }
 }

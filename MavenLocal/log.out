@@ -32,3 +32,7 @@ start my test
 77   [main] ERROR com.example.App  - error error?????
 92   [main] FATAL com.example.App  - fafaf
 93   [main] WARN  com.example.App  - fffff
+0    [main] INFO  com.example.App  - start my test
+96   [main] ERROR com.example.App  - error error?????
+97   [main] FATAL com.example.App  - fafaf
+98   [main] WARN  com.example.App  - fffff

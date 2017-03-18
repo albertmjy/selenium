@@ -22,7 +22,7 @@ public class JsExecutor {
         System.setProperty("webdriver.chrome.driver", "/Users/albert/Lib/chromedriver");
 
         WebDriver driver = new ChromeDriver();
-        ((JavascriptExecutor)driver).executeScript("alert('life is not easy!')");
+        ((JavascriptExecutor)driver).executeScript("alert('我爱祖国!')");
     }
 
     public void returnDom(){
@@ -33,8 +33,8 @@ public class JsExecutor {
         driver.get("https://www.qunar.com");
 
 
-        WebElement element = driver.findElement(By.id("id_of_element"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+//        WebElement element = driver.findElement(By.id("id_of_element"));
+//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 
 //        WebElement element = driver.findElement(By.id("my-id"));
 //        Actions actions = new Actions(driver);
@@ -47,12 +47,12 @@ public class JsExecutor {
 //                "var html = el.innerHTML;" +
 //                "document.write(html)");
 
-//        WebElement element = (WebElement) ((JavascriptExecutor)driver).executeScript("return document.getElementById('js_flight_domestic_searchbox')");
-//        String tagName = element.getTagName();
-//        System.out.println(tagName);
+        WebElement element = (WebElement) ((JavascriptExecutor)driver).executeScript("return document.getElementById('js_flight_domestic_searchbox')");
+        String tagName = element.getTagName();
+        System.out.println(tagName);
 
-//        WebElement el = driver.findElement(By.id("js_flight_domestic_searchbox"));
-//        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true)", el);
+        WebElement el = driver.findElement(By.id("js_flight_domestic_searchbox"));
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true)", el);
 
         // dom list
         java.util.List<WebElement> labels = driver.findElements(By.tagName("label"));
@@ -79,6 +79,7 @@ public class JsExecutor {
         try {
             Robot robot = new Robot();
             robot.keyPress(KeyEvent.VK_PAGE_DOWN);
+
             robot.mouseMove(1, 2);
             robot.mouseWheel(1);
         } catch (AWTException e) {

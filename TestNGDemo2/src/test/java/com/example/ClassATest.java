@@ -19,7 +19,7 @@ public class ClassATest {
 
     @AfterMethod
     public void tearDown() throws Exception {
-        // clean all
+        System.out.println("clean");
     }
 
     @Test

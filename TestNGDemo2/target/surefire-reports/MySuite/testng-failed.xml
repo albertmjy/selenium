@@ -11,6 +11,7 @@
       <class name="com.example.DependencyTest">
         <methods>
           <include name="configTest"/>
+          <include name="setup"/>
           <include name="teatdown"/>
           <include name="connectionTest"/>
         </methods>

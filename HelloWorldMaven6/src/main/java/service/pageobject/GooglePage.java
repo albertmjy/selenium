@@ -27,9 +27,9 @@ public class GooglePage {
         searchBox.sendKeys(text);
         searchBox.submit();
     }
-
-    public void searchGoogle3(String text){
-        sBox.sendKeys(text);
-        sBox.submit();
-    }
+//
+//    public void searchGoogle3(String text){
+//        sBox.sendKeys(text);
+//        sBox.submit();
+//    }
 }
